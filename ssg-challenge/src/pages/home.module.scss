@@ -1,0 +1,86 @@
+.container {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		width: 100%;
+		max-width: 500px;
+		padding: 1rem;
+		border-radius: 5px;
+		background: var(--gray-100);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+		h2 {
+			margin-bottom: 1.5rem;
+		}
+
+		input,
+		textarea {
+			width: 100%;
+			margin: 0.5rem 0 1.3rem;
+		}
+
+		textarea {
+			resize: vertical;
+			min-height: 100px;
+		}
+
+		button {
+			width: 100%;
+			margin: 1rem 0;
+			padding: 0.5rem;
+			border: none;
+			border-radius: 5px;
+			font-weight: bold;
+			color: var(--white);
+			background: var(--green-500);
+			transition: filter 0.2s;
+
+			&:hover {
+				filter: opacity(70%);
+			}
+		}
+	}
+
+	.secondHeading {
+		margin-top: 2rem;
+	}
+
+	table {
+		width: 100%;
+		margin: 1rem 0;
+		border-collapse: collapse;
+		border-spacing: 0;
+		background: var(--gray-100);
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+		thead {
+			tr {
+				th {
+					padding: 1rem;
+					border-bottom: 1px solid var(--gray-200);
+					text-align: left;
+					font-weight: bold;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				td {
+					padding: 1rem;
+					border-bottom: 1px solid var(--gray-200);
+					text-align: left;
+				}
+			}
+		}
+	}
+}

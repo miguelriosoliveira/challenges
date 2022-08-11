@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  nextjs-ui:
+    container_name: nextjs-ui
+    stdin_open: true
+    build:
+      context: ./
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./:/usr/src/app/my-app
+      - /usr/src/app/my-app/node_modules

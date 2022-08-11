@@ -1,0 +1,37 @@
+[
+	{
+		"prefix": 1437329,
+		"operator": "Lucky Mobileeeeeeeee",
+		"country_code": 1,
+		"country": "Canada",
+		"region": "Ontario"
+	},
+	{
+		"prefix": 1438,
+		"operator": null,
+		"country_code": 1,
+		"country": "Canada",
+		"region": "Québec"
+	},
+	{
+		"prefix": 1450,
+		"operator": null,
+		"country_code": 1,
+		"country": "Canada",
+		"region": "Québec"
+	},
+	{
+		"prefix": 1506,
+		"operator": null,
+		"country_code": 1,
+		"country": "Canada",
+		"region": "New Brunswick"
+	},
+	{
+		"prefix": 1647993,
+		"operator": "Telus",
+		"country_code": 1,
+		"country": "Canada",
+		"region": "Ontario"
+	}
+]
