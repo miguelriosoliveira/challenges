@@ -1,8 +1,8 @@
-# VerifyMyAge Challenge
+# Users API
 
 Server made using [**TypeScript**](https://www.typescriptlang.org/), [**Node.js**](https://nodejs.org/), [**Express**](https://expressjs.com/), [**MongoDB Atlas**](https://www.mongodb.com/cloud/atlas) and [**mongoose**](https://mongoosejs.com/).
 
-## Main responsabilities
+## Main responsibilities
 
 This REST API provides the main functions for a CRUD of Users (with name, age, email, password and address):
 
