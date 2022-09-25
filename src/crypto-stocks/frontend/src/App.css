@@ -1,0 +1,11 @@
+.App {
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  max-width: 1200px;
+}
+
+.App .currency-block {
+  padding: 0.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
